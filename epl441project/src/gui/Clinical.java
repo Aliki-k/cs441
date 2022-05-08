@@ -12,7 +12,7 @@ import javax.swing.JButton;
 
 public class Clinical extends JFrame implements ActionListener{
 	private Start start;
-
+	private JButton b1,b2;
 
 	/**
 	 * Create the frame.
@@ -22,13 +22,13 @@ public class Clinical extends JFrame implements ActionListener{
 		this.start=start;
 		getContentPane().setLayout(null);
 		
-		JButton btnNewButton = new JButton("Search a patient");
-		btnNewButton.setBounds(225, 129, 120, 40);
-		getContentPane().add(btnNewButton);
+		b1 = new JButton("Search a patient");
+		b1.setBounds(225, 129, 135, 40);
+		getContentPane().add(b1);
 		
-		JButton btnNewButton_1 = new JButton("Search record");
-		btnNewButton_1.setBounds(225, 180, 120, 40);
-		getContentPane().add(btnNewButton_1);
+		b2 = new JButton("Search record");
+		b2.setBounds(225, 180, 135, 40);
+		getContentPane().add(b2);
 		setSize(600,400);
 		setLocationRelativeTo(null);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
@@ -36,7 +36,14 @@ public class Clinical extends JFrame implements ActionListener{
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		// TODO Auto-generated method stub
+		if(e.getSource()==b1) {
+			start.c.setVisible(false);
+			start.pscs.setVisible(true);
+		}
+		else if(e.getSource()==b2) {
+			start.c.setVisible(false);
+			//start.
+		}
 		
 	}
 	/**

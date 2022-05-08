@@ -27,7 +27,7 @@ public class SignUpClinicalStaff extends JFrame implements ActionListener{
 	public SignUpClinicalStaff(Start start) {
 		this.start=start;
 		getContentPane().setLayout(null);
-		setSize(600,400);
+		setSize(600,600);
 		setLocationRelativeTo(null);
 		JLabel l=new JLabel("Sign up");
 		l.setBounds(240,0,150,50);

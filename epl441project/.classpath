@@ -6,5 +6,8 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/Vasilis/eclipse-workspace/epl441project/mssql-jdbc-10.2.0.jre17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vasilis/eclipse-workspace/epl441project/mssql-jdbc-10.2.0.jre11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vasilis/Downloads/mysql-connector-java-8.0.29/mysql-connector-java-8.0.29/mysql-connector-java-8.0.29.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
