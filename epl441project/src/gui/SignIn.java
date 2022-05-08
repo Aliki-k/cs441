@@ -36,7 +36,8 @@ public class SignIn extends JFrame implements ActionListener{
 		b4=new JButton("Sign in as Health service management");
 		b4.setBounds(150,230,300,40);
 		b4.addActionListener(this);
-		getContentPane().add(b1);getContentPane().add(b2);getContentPane().add(b3);getContentPane().add(b4);
+		getContentPane().add(b1);
+		getContentPane().add(b2);getContentPane().add(b3);getContentPane().add(b4);
 		back = new JButton("Back");
 		back.setBounds(10, 327, 89, 30);
 		back.addActionListener(this);
