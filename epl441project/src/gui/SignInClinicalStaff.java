@@ -55,7 +55,8 @@ public class SignInClinicalStaff extends JFrame implements ActionListener{
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		if(e.getSource()==b) {
-			
+			start.sics.setVisible(false);
+			start.c.setVisible(true);
 		}
 		
 	}
