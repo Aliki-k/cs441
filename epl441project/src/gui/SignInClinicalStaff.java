@@ -36,14 +36,14 @@ public class SignInClinicalStaff extends JFrame implements ActionListener{
 		
 		b=new JButton("Sign in as Clinical staff");
 		b.setBounds(200, 221, 200, 50);
+		b.addActionListener(this);
 		getContentPane().add(name);getContentPane().add(l);getContentPane().add(b);
 		JLabel lblNewLabel = new JLabel("Username");
 		lblNewLabel.setBounds(200, 114, 72, 14);
 		getContentPane().add(lblNewLabel);
 		JLabel lblNewLabel_1 = new JLabel("Password");
-		lblNewLabel_1.setBounds(200, 170, 61, 14);
-		getContentPane().add(lblNewLabel_1);
-		
+		lblNewLabel_1.setBounds(200, 170, 61, 14);		
+		getContentPane().add(lblNewLabel_1);		
 		passwordField = new JPasswordField();
 		passwordField.setBounds(200, 186, 200, 20);
 		getContentPane().add(passwordField);
